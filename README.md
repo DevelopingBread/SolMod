@@ -1,2 +1,2 @@
-# SolMod
-A mod loader for Solar Admin
+#Solar Mod Loader
+Nothing Here Yet
