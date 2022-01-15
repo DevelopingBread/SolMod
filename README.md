@@ -12,6 +12,10 @@ For the commands to work, make sure to check in ```SolMod/FTBR/Settings```
 
 ### **Reminder: Put the SolMod folder in ServerScriptService**
 
+# Quick Info
+
+Note that v0.1 of solar will not work with SolMod
+
 # Images
 
 ![Solar2](https://user-images.githubusercontent.com/96776358/149617222-9f54e29a-12c0-4ddc-ae27-3ae8500fb6a0.png)
