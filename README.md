@@ -26,7 +26,7 @@ Create a ModuleScript and put the code like this:
 local Data = {}
 
 function Data:MoveFile(Location)
-	local obj = game:FindFirstChildOfClass("ModuleScript")
+	local obj = script:FindFirstChildOfClass("ModuleScript")
 	obj.Parent = Location
 end
 
@@ -34,7 +34,7 @@ return Data
 ```
 Should look like this
 
-![image](https://user-images.githubusercontent.com/96776358/149607949-6d6b972c-3769-4c8c-8758-1119a55757b7.png)
+![image](https://user-images.githubusercontent.com/96776358/149608102-0c2ce520-b3f7-4cba-b803-c4528f425322.png)
 
 Then insert your Solar Command inside (This is how it should look like)
 
