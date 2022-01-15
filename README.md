@@ -17,7 +17,9 @@ All of the things you need to know to use SolMod is here
 
 > "Wait, why do I have to use SolMod Modified commands? or anything else"	
 
-> Its because of Roblox saying that you cant import models if you dont own it or if its not by roblox
+> 1. Its because of Roblox saying that you cant import models if you dont own it or if its not by roblox
+> 2. The creator of the command/theme/command pack can easily update it and you don't have to scavenge for it
+> 3. You can just put in the Id in ```SolMod/FTBR/ConfigReplace``` and automatically install the command, without the need of puting it in somewhere
 
 ### **SolMod Commands:** Converting your ```Solar Commands``` to ```SolMod Commands```
 
@@ -112,3 +114,11 @@ Thats its, you just need to upload it and now you created a SolMod Theme
 Q: Why is the functions named MoveFile?
 
 A: Its just so I can move the file to the correct location
+
+Q: Why are there require code?
+
+A: Its to load in the commands for Solar
+
+Q: Can any of the codes be malicious?
+
+A: Yes, but only if the creator of the command has put in malicious code inside. Before adding any command to Solar, I would check if any of it is malicious
