@@ -7,6 +7,8 @@ Right at this moment, there isn't any modified commands for letting commands be 
 
 Any bugs that is found, please report it to me, or if you have any problems, then ping/dm me in Solar server [Expired Bread#8976] (684808662157361170)
 
+For the commands to work, make sure to check in ```SolMod/FTBR/Settings```
+
 # Documentation
 
 All of the things you need to know to use SolMod is here
@@ -111,14 +113,11 @@ Thats its, you just need to upload it and now you created a SolMod Theme
 
 # Questions
 
-Q: Why is the functions named MoveFile?
+> Q: Why is the functions named MoveFile?
+> A: Its just so I can move the file to the correct location
 
-A: Its just so I can move the file to the correct location
+> Q: Why are there require code?
+> A: Its to load in the commands for Solar
 
-Q: Why are there require code?
-
-A: Its to load in the commands for Solar
-
-Q: Can any of the codes be malicious?
-
-A: Yes, but only if the creator of the command has put in malicious code inside. Before adding any command to Solar, I would check if any of it is malicious
+> Q: Can any of the codes be malicious?
+> A: Yes, but only if the creator of the command has put in malicious code inside. Before adding any command to Solar, I would check if any of it is malicious. Or if you know they are trusted within the community, then its safe to assume its ok.
