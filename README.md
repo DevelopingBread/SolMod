@@ -4,7 +4,7 @@
 
 All of the things you need to know to use SolMod is here
 
-__Anything that says to create a file of a "Module Script" and to be named "Main Module" Is Required. Without doing so, it will not work OR said to create a "Main Module" means to make a "Module Script" and name it "Main Module"__
+__Anything that says to create a file of a "Module Script" and to be named "MainModule" Is Required. Without doing so, it will not work OR said to create a "MainModule" means to make a "Module Script" and name it "MainModule"__
 
 # Create SolMod Commands
 
@@ -18,7 +18,7 @@ Its because of Roblox saying that you cant import models if you dont own it or i
 
 __SolMod Commands:__ Converting your **Solar Commands** to **SolMod Modified Commands**
 
-This is the most simplest thing to do, all you need to do is to rename all of the Solar Commands to **Main Module** (Make sure to upload them to roblox). Then paste in this peice of code
+This is the most simplest thing to do, all you need to do is to rename all of the Solar Commands to **MainModule** (Make sure to upload them to roblox). Then paste in this peice of code
 
 (It will rename itself when its imported EX: if it was named "Test" in the code, it would rename the file to "test.command")
 
@@ -32,7 +32,7 @@ This is all you have to do!
 
 # Create SolMod Command Packs
 
-You will need to create a new **ModuleScript** and name it **Main Module**, and write this code in: 
+You will need to create a new **ModuleScript** and name it **MainModule**, and write this code in: 
 
 ```lua
 local Data = {
@@ -57,7 +57,7 @@ It should look like this:
 
 (Doesn't need to be in a folder)
 
-Then make sure to upload the Main Main Module
+Then make sure to upload the Main MainModule
 
 # Creating SolMod Plugins
 
@@ -86,7 +86,7 @@ This is what it should look like
 
 You will see that its almost the same code as creating SolMod Command Packs, it just you need the name of the theme
 
-Then put in your theme module script inside of the Main Module
+Then put in your theme module script inside of the MainModule
 
 Thats its, you just need to upload it and now you created a SolMod Theme
 
