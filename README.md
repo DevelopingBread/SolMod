@@ -94,6 +94,8 @@ return Data
 
 This is what it should look like
 
+__Make sure the theme ModuleScript is named "defualt.theme", because Im lazy to make it work if its a different name lol__
+
 ![image](https://user-images.githubusercontent.com/96776358/149604289-23ff267a-7c3a-4587-a37e-bbeed9caf21f.png)
 
 You will see that its almost the same code as creating SolMod Command Packs, it just you need the name of the theme
