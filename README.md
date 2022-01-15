@@ -36,10 +36,10 @@ You will need to create a new **ModuleScript** and name it **Main Module**, and 
 
 ```lua
 local Data = {
-	["Name"] = "";
-	["Description"] = "";
+	["Name"] = ""; -- What pack is this?
+	["Description"] = ""; -- What does it do?
 	
-	["Version"] = "0.0.0";
+	["Version"] = "0.0.0"; -- What Version is this on?
 }
 
 function Data:MoveItemsInside(Location)
@@ -71,7 +71,7 @@ first you need to create another **MainModule** and write the code shown below
 
 ```lua
  local Data = {
-	["Name"] = "";
+	["Name"] = ""; -- What the name of this theme?
 }
 
 function Data:MoveItemsInside(Location)
