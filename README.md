@@ -26,7 +26,7 @@ function command:MoveFile(location) script.Parent = location; script.Name = stri
 
 (It will rename itself when its imported EX: if you change SolModName to "Test" in the code, it would rename the file to "test.command", this is how you would run the command)
 
-![image](https://user-images.githubusercontent.com/96776358/149606635-bd2decbe-0a92-4be1-9570-3c208434e2e0.png)
+![image](https://user-images.githubusercontent.com/96776358/149606697-a4872fb0-fb02-441d-bd61-68adf248c7da.png)
 
 This is all you have to do!
 
