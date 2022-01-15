@@ -18,17 +18,27 @@ Its because of Roblox saying that you cant import models if you dont own it or i
 
 __SolMod Commands:__ Converting your **Solar Commands** to **SolMod Modified Commands**
 
-This is the most simplest thing to do, all you need to do is to rename all of the Solar Commands to **MainModule** (Make sure to upload them to roblox). Then put in this peice of code down there
+This is going to be just like creating Command Packs (Below here) but this only requires you to put in a single command inside and no needs to modify anything else
+
+Create a ModuleScript and put the code like this:
 
 ```lua
-function command:MoveFile(location) script.Parent = location; script.Name = string.lower(table.concat(string.split(command["Name"], "")) .. ".command"); return true end
+local Data = {}
+
+function Data:MoveFile(Location)
+	local obj = game:FindFirstChildOfClass("ModuleScript")
+	obj.Parent = Location
+end
+
+return Data
 ```
+Should look like this
 
-(It will rename itself when its imported EX: if you change SolModName to "Test" in the code, it would rename the file to "test.command", this is how you would run the command)
+![image](https://user-images.githubusercontent.com/96776358/149607949-6d6b972c-3769-4c8c-8758-1119a55757b7.png)
 
-![image](https://user-images.githubusercontent.com/96776358/149607307-1fcadeb0-93f8-4905-9424-b4c1f342f1bd.png)
+Then insert your Solar Command inside (This is how it should look like)
 
-This is all you have to do!
+![image](https://user-images.githubusercontent.com/96776358/149607965-e1e92207-25a8-4a5c-9223-187729ea5415.png)
 
 # Create SolMod Command Packs
 
