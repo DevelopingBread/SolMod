@@ -92,6 +92,6 @@ Thats its, you just need to upload it and now you created a SolMod Theme
 
 # Questions
 
-Q: Why is the functions are like MoveITemsInside or MoveFile?
+Q: Why is the functions named MoveFile?
 
 A: Its just so I can move the file to the correct location
