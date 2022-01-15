@@ -42,7 +42,7 @@ local Data = {
 	["Version"] = "0.0.0"; -- What Version is this on?
 }
 
-function Data:MoveItemsInside(Location)
+function Data:MoveFile(Location)
 	for _, obj in pairs(script:GetChildren()) do obj.Parent = Location end
 end
 
@@ -74,7 +74,7 @@ first you need to create another **MainModule** and write the code shown below
 	["Name"] = ""; -- What the name of this theme?
 }
 
-function Data:MoveItemsInside(Location)
+function Data:MoveFile(Location)
 	for _, obj in pairs(script:GetChildren()) do obj.Parent = Location end
 end
 return Data
