@@ -114,6 +114,40 @@ Then put in your theme module script inside of the MainModule
 
 Thats its, you just need to upload it and now you created a SolMod Theme
 
+# Create Custom Ui
+
+New feature in SolMod, you can now create custom ui for Solar
+
+Now instead of using themes just to change color, you can now change tweening, sies, and more
+
+```But, how do i do this?```
+
+First you need a example file of the ui: [SolarUiExample.zip](https://github.com/DevelopingBread/SolMod/files/7874636/SolarUiExample.zip)
+
+Then you need to know how to code ```ui, and LuaU/Roblox's Coding language```
+
+### Make sure that the objects that are inside Solar aren't deleted. OR ElSE it can break the admin. (Because it requires some objects to still be there and they are used in the ```SolarClientCore```)
+
+After you done some of this, you can test it out!
+
+Go to ```SolMod/FTBR/CustomUi``` and replace the defualt Ui for SolMod (If you want to use SolMod's custom ui, keep it in)
+
+Then Got to ```SolMod/ReadMe``` and go to the quick options
+
+![image](https://user-images.githubusercontent.com/96776358/149616610-8bd2e3ed-dc2a-410d-9f17-15bd23c09a0c.png)
+
+You can enable by saying
+
+```lua
+["Use Custom UI?"] = true;
+``` 
+
+or disabling it by (disabling it means it uses solar's defualt ui)
+
+```lua 
+["Use Custom UI?"] = false;
+```
+
 # Questions
 
 > Q: Why is the functions named MoveFile?
