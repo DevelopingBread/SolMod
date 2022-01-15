@@ -12,6 +12,12 @@ For the commands to work, make sure to check in ```SolMod/FTBR/Settings```
 
 ### **Reminder: Put the SolMod folder in ServerScriptService**
 
+# Images
+
+![Solar](https://user-images.githubusercontent.com/96776358/149617087-2bd96d88-2884-446d-b2f7-1d63816b51b7.png)
+
+![Solar2](https://user-images.githubusercontent.com/96776358/149617222-9f54e29a-12c0-4ddc-ae27-3ae8500fb6a0.png)
+
 # Documentation
 
 All of the things you need to know to use SolMod is here
@@ -50,7 +56,8 @@ Then insert your Solar Command inside (This is how it should look like)
 
 ![image](https://user-images.githubusercontent.com/96776358/149607965-e1e92207-25a8-4a5c-9223-187729ea5415.png)
 
-# Create SolMod Command Packs
+# Create SolMod Command Packs!
+
 
 You will need to create a new ```ModuleScript``` and name it ```MainModule```, and write this code in: 
 
