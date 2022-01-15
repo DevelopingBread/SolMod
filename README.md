@@ -23,10 +23,10 @@ This is the most simplest thing to do, all you need to do is to rename all of th
 (It will rename itself when its imported EX: if it was named "Test" in the code, it would rename the file to "test.command")
 
 ```lua
-function command.MoveFile(location) script.Parent = location end
+function command.MoveFile(location) script.Parent = location; script.Name = table.concat(string.split(command["Name"], "")) .. ".command" end
 ```
 
-Example: ![image](https://user-images.githubusercontent.com/96776358/149603555-e381e8ef-99e7-42fc-bb1a-9b39a5e91a27.png)
+![image](https://user-images.githubusercontent.com/96776358/149605836-d30f7a97-ecf3-42b7-8ca2-ea2e8ad23b3f.png)
 
 This is all you have to do!
 
@@ -43,13 +43,15 @@ local Data = {
 }
 
 function Data:MoveFile(Location)
-	for _, obj in pairs(script:GetChildren()) do obj.Parent = Location end
+	for _, obj in pairs(script:GetChildren()) do 
+		obj.Parent = Location
+	end
 end
 
 return Data
 ```
 
-Then you can put in your **solar/solmod** commands inside of it _(Doesn't Matter)_
+Then you can put in your solar commands inside of it _(It must be regular solar commands NOT SolMod Commands)_
 
 It should look like this: 
 
