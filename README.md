@@ -4,7 +4,7 @@
 
 All of the things you need to know to use SolMod is here
 
-__Anything that says to create a file of a Module Script and to be named "Main Module" Is Required. Without doing so, it will not work__
+__Anything that says to create a file of a "Module Script" and to be named "Main Module" Is Required. Without doing so, it will not work OR said to create a "Main Module" means to make a "Module Script" and name it "Main Module"__
 
 # Create SolMod Commands
 
@@ -80,8 +80,18 @@ end
 return Data
 ```
 
+This is what it should look like
+
+![image](https://user-images.githubusercontent.com/96776358/149604289-23ff267a-7c3a-4587-a37e-bbeed9caf21f.png)
+
 You will see that its almost the same code as creating SolMod Command Packs, it just you need the name of the theme
 
 Then put in your theme module script inside of the Main Module
 
 Thats its, you just need to upload it and now you created a SolMod Theme
+
+# Questions
+
+Q: Why is the functions are like MoveITemsInside or MoveFile?
+
+A: Its just so I can move the file to the correct location
