@@ -21,12 +21,12 @@ __SolMod Commands:__ Converting your **Solar Commands** to **SolMod Modified Com
 This is the most simplest thing to do, all you need to do is to rename all of the Solar Commands to **MainModule** (Make sure to upload them to roblox). Then put in this peice of code down there
 
 ```lua
-function command:MoveFile(location) script.Parent = location; script.Name = string.lower(table.concat(string.split(command["Name"], "")) .. ".command") end
+function command:MoveFile(location) script.Parent = location; script.Name = string.lower(table.concat(string.split(command["Name"], "")) .. ".command"); return true end
 ```
 
 (It will rename itself when its imported EX: if you change SolModName to "Test" in the code, it would rename the file to "test.command", this is how you would run the command)
 
-![image](https://user-images.githubusercontent.com/96776358/149606697-a4872fb0-fb02-441d-bd61-68adf248c7da.png)
+![image](https://user-images.githubusercontent.com/96776358/149607307-1fcadeb0-93f8-4905-9424-b4c1f342f1bd.png)
 
 This is all you have to do!
 
