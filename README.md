@@ -1,22 +1,25 @@
 ![Untitled](https://user-images.githubusercontent.com/96776358/149602887-f75608d9-0e50-4a7d-8f58-c73f4efe69e5.png)
+Thank you for using SolMod
+
+There are already 3 ids are in ```SolMod/FTBR/ConfigReplace``` by **defualt**
+
+Right at this moment, there isn't any modified commands for letting commands be used in SolMod, But follow the Documentation, and it will guide you on how to do it
+
+Any bugs that is found, please report it to me, or if you have any problems, then ping/dm me in Solar server [Expired Bread#8976] (684808662157361170)
 
 # Documentation
 
 All of the things you need to know to use SolMod is here
 
-__Anything that says to create a file of a "Module Script" and to be named "MainModule" Is Required. Without doing so, it will not work OR said to create a "MainModule" means to make a "Module Script" and name it "MainModule"__
+```Anything that says to create a file of a "Module Script" and to be named "MainModule" Is Required. Without doing so, it will not work OR said to create a "MainModule" means to make a "Module Script" and name it "MainModule"```
 
 # Create SolMod Commands
 
-{
+> "Wait, why do I have to use SolMod Modified commands? or anything else"	
 
-"Wait, why do I have to use SolMod Modified commands? or anything else"	
+> Its because of Roblox saying that you cant import models if you dont own it or if its not by roblox
 
-Its because of Roblox saying that you cant import models if you dont own it or if its not by roblox
-
-}
-
-__SolMod Commands:__ Converting your **Solar Commands** to **SolMod Modified Commands**
+### **SolMod Commands:** Converting your ```Solar Commands``` to ```SolMod Commands```
 
 This is going to be just like creating Command Packs (Below here) but this only requires you to put in a single command inside and no needs to modify anything else
 
@@ -42,7 +45,7 @@ Then insert your Solar Command inside (This is how it should look like)
 
 # Create SolMod Command Packs
 
-You will need to create a new **ModuleScript** and name it **MainModule**, and write this code in: 
+You will need to create a new ```ModuleScript``` and name it ```MainModule```, and write this code in: 
 
 ```lua
 local Data = {
@@ -73,13 +76,13 @@ Then make sure to upload the Main MainModule
 
 # Creating SolMod Plugins
 
-__Plugin system for solar is inactive. When its working soon, I'll fix the docs__
+```Plugin system for solar is inactive. When its working soon, I'll fix the docs```
 
 # Creating SolMod Themes
 
 This is going to be just like creating a SolMod CommandPack
 
-first you need to create another **MainModule** and write the code shown below
+first you need to create another ```MainModule``` and write the code shown below
 
 ```lua
  local Data = {
@@ -94,7 +97,7 @@ return Data
 
 This is what it should look like
 
-__Make sure the theme ModuleScript is named "defualt.theme", because Im lazy to make it work if its a different name lol__
+```Make sure the theme ModuleScript is named "defualt.theme", because Im lazy to make it work if its a different name lol```
 
 ![image](https://user-images.githubusercontent.com/96776358/149604289-23ff267a-7c3a-4587-a37e-bbeed9caf21f.png)
 
