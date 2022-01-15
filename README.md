@@ -117,10 +117,13 @@ Thats its, you just need to upload it and now you created a SolMod Theme
 # Questions
 
 > Q: Why is the functions named MoveFile?
+> 
 > A: Its just so I can move the file to the correct location
 
 > Q: Why are there require code?
+> 
 > A: Its to load in the commands for Solar
 
 > Q: Can any of the codes be malicious?
+> 
 > A: Yes, but only if the creator of the command has put in malicious code inside. Before adding any command to Solar, I would check if any of it is malicious. Or if you know they are trusted within the community, then its safe to assume its ok.
