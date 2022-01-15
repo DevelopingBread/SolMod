@@ -15,7 +15,7 @@ All of the things you need to know to use SolMod is here
 
 # Create SolMod Commands
 
-> "Wait, why do I have to use SolMod Modified commands? or anything else"	
+> "Wait, why do I have to use SolMod Modified commands?"	
 
 > 1. Its because of Roblox saying that you cant import models if you dont own it or if its not by roblox
 > 2. The creator of the command/theme/command pack can easily update it and you don't have to scavenge for it
