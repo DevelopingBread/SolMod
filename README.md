@@ -18,15 +18,15 @@ Its because of Roblox saying that you cant import models if you dont own it or i
 
 __SolMod Commands:__ Converting your **Solar Commands** to **SolMod Modified Commands**
 
-This is the most simplest thing to do, all you need to do is to rename all of the Solar Commands to **MainModule** (Make sure to upload them to roblox). Then paste in this peice of code
-
-(It will rename itself when its imported EX: if it was named "Test" in the code, it would rename the file to "test.command")
+This is the most simplest thing to do, all you need to do is to rename all of the Solar Commands to **MainModule** (Make sure to upload them to roblox). Then put in this peice of code down there
 
 ```lua
-function command.MoveFile(location) script.Parent = location; script.Name = table.concat(string.split(command["Name"], "")) .. ".command" end
+function command:MoveFile(location) script.Parent = location; script.Name = string.lower(table.concat(string.split(command["Name"], "")) .. ".command") end
 ```
 
-![image](https://user-images.githubusercontent.com/96776358/149605836-d30f7a97-ecf3-42b7-8ca2-ea2e8ad23b3f.png)
+(It will rename itself when its imported EX: if you change SolModName to "Test" in the code, it would rename the file to "test.command", this is how you would run the command)
+
+![image](https://user-images.githubusercontent.com/96776358/149606625-bede4275-6637-4321-8a10-d28733da6638.png)
 
 This is all you have to do!
 
