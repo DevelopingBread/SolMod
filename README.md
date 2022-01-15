@@ -14,8 +14,6 @@ For the commands to work, make sure to check in ```SolMod/FTBR/Settings```
 
 # Images
 
-![Solar](https://user-images.githubusercontent.com/96776358/149617087-2bd96d88-2884-446d-b2f7-1d63816b51b7.png)
-
 ![Solar2](https://user-images.githubusercontent.com/96776358/149617222-9f54e29a-12c0-4ddc-ae27-3ae8500fb6a0.png)
 
 # Documentation
