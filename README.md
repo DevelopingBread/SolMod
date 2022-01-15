@@ -1,4 +1,5 @@
 ![Untitled](https://user-images.githubusercontent.com/96776358/149602887-f75608d9-0e50-4a7d-8f58-c73f4efe69e5.png)
+
 Thank you for using SolMod
 
 There are already 3 ids are in ```SolMod/FTBR/ConfigReplace``` by **defualt**
@@ -8,6 +9,8 @@ Right at this moment, there isn't any modified commands for letting commands be 
 Any bugs that is found, please report it to me, or if you have any problems, then ping/dm me in Solar server [Expired Bread#8976] (684808662157361170)
 
 For the commands to work, make sure to check in ```SolMod/FTBR/Settings```
+
+### **Reminder: Put the SolMod folder in ServerScriptService**
 
 # Documentation
 
