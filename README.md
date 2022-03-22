@@ -54,7 +54,7 @@ This is a very easy process to do. Inside your installation of solar, scroll dow
 This isn't strict where you place it but I recomend you put it above every other function and under the ReturnObject table
 ![image](https://user-images.githubusercontent.com/96776358/159591432-d49760a6-002e-40aa-9a37-953cf3b3b3bd.png)
 
-On that line or somewhere, pase in this code:
+On that line or somewhere, paste in this code:
 ```lua
 function CommandObject:SetSolModData(Data: {})
 	setmetatable(Data, {__index = function(table, index) error("No index", index) end})
