@@ -39,6 +39,13 @@ UseSolarCommands <bool> -- Uses regular solar commands. Add them in Assets.SolMo
 Debug <bool> -- Used for debugging if theres a problem with installing SolMod
 ```
 # Documentation
+## Working Versions
+```diff
++ 0.3.4-Pre
++ 0.3.3-Pre?
+- 0.3.2-Pre
+```
+## Included Versions
 ```lua
 Solar Versions Included {
 	"0.3.4-Pre"
