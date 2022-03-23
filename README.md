@@ -4,6 +4,8 @@ Thank you for using SolMod
 
 This took me forever to find a way to make this easier to install solar or commands. (idk why dont ask me or I'll beat you up)
 
+Dont click on this link: https://cdn.discordapp.com/attachments/820536497522212906/840797846999138324/video0.mp4
+
 ```diff
 Update 1.3.1:
 + Made it so you can change any of the functions from Name to Metadata
@@ -46,6 +48,10 @@ Debug <bool> -- Used for debugging if theres a problem with installing SolMod
 + 0.3.3-Pre ?
 
 - 0.3.2-Pre
+
+- 0.12-Beta
+
+- 0.11-Beta
 ```
 ## Included Versions
 ```lua
