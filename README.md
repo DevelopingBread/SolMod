@@ -8,7 +8,7 @@ Dont click on this link: https://cdn.discordapp.com/attachments/8205364975222129
 
 ```diff
 Update 1.3.1:
-+ Made it so you can change any of the functions from Name to Metadata
++ Made it so you can change any of the functions from Name to Metadata (Look in docs if you dont understand :/)
 + I give back the pie I owe you 🥧
 
 Update 1.3:
