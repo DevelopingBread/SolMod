@@ -61,14 +61,16 @@ Debug <bool> -- Used for debugging if theres a problem with installing SolMod
 - 0.11-Beta
 ```
 ## Included Versions
-```lua
-Solar Versions Included {
-	"0.3.4-Pre"
-}
+```diff
+! Solar Versions Included
++ "0.3.4-Pre"
+- 0.3.3
+- 0.3.2
+- 0.12
+- 0.11
 
-Solar Bugfixed Versions Included {
-	"None at the moment"
-}
+! Solar Bugfixed Versions Included
+- "None at the moment"
 ```
 
 ## API
