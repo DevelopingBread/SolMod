@@ -42,7 +42,9 @@ Debug <bool> -- Used for debugging if theres a problem with installing SolMod
 ## Working Versions
 ```diff
 + 0.3.4-Pre
-+ 0.3.3-Pre?
+
++ 0.3.3-Pre ?
+
 - 0.3.2-Pre
 ```
 ## Included Versions
