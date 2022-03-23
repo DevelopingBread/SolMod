@@ -5,6 +5,10 @@ Thank you for using SolMod
 This took me forever to find a way to make this easier to install solar or commands. (idk why dont ask me or I'll beat you up)
 
 ```diff
+Update 1.3.1:
++ Made it so you can change any of the functions from Name to Metadata
++ I give back the pie I owe you 🥧
+
 Update 1.3:
 + Cleaned up the code
 + Made things more compact
@@ -57,15 +61,23 @@ This isn't strict where you place it but I recomend you put it above every other
 On that line or somewhere, paste in this code:
 ```lua
 function CommandObject:SetSolModData(Data: {})
-	setmetatable(Data, {__index = function(table, index) error("No index", index) end})
-
 	Data.Script.Parent = Configuration:WaitForChild("Commands")
 	Data.Script.Name = Data.Name .. ".command"
 
 	self.Name = Data.Name
 	self.Description = Data.Description
 	self.PermissionLevel = Data.PermissionLevel
-
+	for _, Argument in pairs(Data.Arguments) do
+		table.insert(self.Arguments,{
+			Name = Argument[1],
+			Type = Argument[2],
+			Required = Argument[3],
+			Options = Argument[4] or {}
+		})
+	end
+	self.Options = Data.Options
+	self.Metadata = Data.Metadata
+	
 	return self
 end
 ```
@@ -78,20 +90,30 @@ This is one of the most easist things to do
 
 In your solar command, around line 3 there should be something like *local Command = API:CreateCommand()*
 
-You want to paste in this code at the top and you can delete *SetName* , *SetDescription* , *SetPermissionLevel*
+You want to paste in this code at the top and you can delete *every other function*
 ```lua
+-- Use solar's docs to understand how this works
 :SetSolModData({
-	Script = script; -- DO NOT CHANGE THIS. if you do i will be sad ;(
+	Script = script;
 	
 	Name = "solmodtest";
 	Description = "Time to check if loading in modules worked!";
 	PermissionLevel = 4;
+	Arguments = {
+		{"arg1", "string", true};
+		{"arg1", "player", false};
+	};
+	Options = {
+		ParseArguments = true,
+		HideExecutionOnClient = false,
+		YieldOnClient = false,
+	};
+	Metadata = {
+		LastCompatibleVersion = "0.3.4",
+		ForceCompatibility = false,
+	}
 })
 ```
-
-It should look like this
-
-![image](https://user-images.githubusercontent.com/96776358/159592175-4ea47c00-29aa-41c5-a298-2ae629a1e2dd.png)
 
 Then you must name the module *MainModule* and upload it. After that you can share the Id to anyone else who wants to use it (Make sure to enable *Distribute on Marketplace*)
 
@@ -109,6 +131,6 @@ Make sure to edit the localscript in the gui to work with it.
 
 ## CmdR
 
-[CmdR Gui Theme.zip](https://github.com/DevelopingBread/SolMod/files/8334700/CmdR.Gui.Theme.zip)
-![image](https://user-images.githubusercontent.com/96776358/159616671-a5548f08-9d6f-4f0f-82bc-631dbc4a4fbc.png)
+[CmdR Gui Theme.zip](https://github.com/DevelopingBread/SolMod/files/8335043/CmdR.Gui.Theme.zip)
 
+![image](https://user-images.githubusercontent.com/96776358/159754382-da54412c-4e60-4431-a6ad-8b7f92fb904b.png)
