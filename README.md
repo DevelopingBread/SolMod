@@ -34,7 +34,7 @@ UseSolarCommands <bool> -- Uses regular solar commands. Add them in Assets.SolMo
 --// Developer
 Debug <bool> -- Used for debugging if theres a problem with installing SolMod
 ```
-## Documentation
+# Documentation
 ```lua
 Solar Versions Included {
 	"0.3.4-Pre"
@@ -104,3 +104,11 @@ When changing the gui to your liking, you need to know *LuaU* and *Gui*
 The template gui is in Assets.SolMod.UI
 
 Make sure to edit the localscript in the gui to work with it.
+
+# Themes
+
+## CmdR
+
+[CmdR Gui Theme.zip](https://github.com/DevelopingBread/SolMod/files/8329422/CmdR.Gui.Theme.zip)
+![image](https://user-images.githubusercontent.com/96776358/159616671-a5548f08-9d6f-4f0f-82bc-631dbc4a4fbc.png)
+
