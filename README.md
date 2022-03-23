@@ -17,7 +17,7 @@ Update 1.3.1:
 + Made it so you can change any of the functions from Name to Metadata (Look in docs if you dont understand :/)
 + I give back the pie I owe you 🥧
 
-Update 1.3:
+Update 1.3.0:
 + Cleaned up the code
 + Made things more compact
 + Made life more easier to change commands to solmod type
