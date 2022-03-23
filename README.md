@@ -94,7 +94,7 @@ You want to paste in this code at the top and you can delete *every other functi
 ```lua
 -- Use solar's docs to understand how this works
 :SetSolModData({
-	Script = script;
+	Script = script; -- This is very important for the api to change the properties of the script
 	
 	Name = "solmodtest";
 	Description = "Time to check if loading in modules worked!";
