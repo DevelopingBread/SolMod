@@ -96,3 +96,11 @@ It should look like this
 Then you must name the module *MainModule* and upload it. After that you can share the Id to anyone else who wants to use it (Make sure to enable *Distribute on Marketplace*)
 
 ![image](https://user-images.githubusercontent.com/96776358/159592348-a43f3db7-129b-4587-a7f2-8b39ba17dd7a.png)
+
+## Gui
+
+When changing the gui to your liking, you need to know *LuaU* and *Gui*
+
+The template gui is in Assets.SolMod.UI
+
+Make sure to edit the localscript in the gui to work with it.
