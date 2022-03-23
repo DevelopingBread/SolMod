@@ -7,6 +7,10 @@ This took me forever to find a way to make this easier to install solar or comma
 Dont click on this link: https://cdn.discordapp.com/attachments/820536497522212906/840797846999138324/video0.mp4
 
 ```diff
+Update 1.3.2:
++ Added plugins
++ Added a end warn "SolMod has loaded [ x | Plugin(s)] [ x | Command(s)]"
+
 Update 1.3.1:
 + Made it so you can change any of the functions from Name to Metadata (Look in docs if you dont understand :/)
 + I give back the pie I owe you 🥧
@@ -28,6 +32,7 @@ UseSolarFolder <bool> -- Uses a manual instalation of solar (You're gonna need t
 UseSolarVersion <string> -- Uses a installation that is included (In docs)
 RegisterCommands <bool> -- Registers commands for solar
 Commands <table {int}> -- Add in your solmod commands here (ID FORM)
+Plugins <table {int}> -- Add in your solmod plugins here (ID FORM)
 
 --// Ui
 CustomUi <bool> -- Uses a custom ui that you or someone else made for solar. Ui location is in Assets.SolMod.UI
@@ -45,7 +50,7 @@ Debug <bool> -- Used for debugging if theres a problem with installing SolMod
 ```diff
 + 0.3.4-Pre
 
-+ 0.3.3-Pre ?
+! 0.3.3-Pre
 
 - 0.3.2-Pre
 
@@ -132,11 +137,52 @@ You want to paste in this code at the top and you can delete *every other functi
 
 Then you must name the module *MainModule* and upload it. After that you can share the Id to anyone else who wants to use it (Make sure to enable *Distribute on Marketplace*)
 
-![image](https://user-images.githubusercontent.com/96776358/159592348-a43f3db7-129b-4587-a7f2-8b39ba17dd7a.png)
+![image](https://user-images.githubusercontent.com/96776358/159768432-1da5cfb1-d14d-4929-b998-bd34e07dfbc2.png)
+
+## Plugins
+
+For plugins, they are different and doesn't need the api to be modified.
+
+You would only add some code to the table on the modulescript
+
+```lua
+	SolModData = {
+		Script = script; -- No touch
+		
+		Name = "example"; -- Name of the plugin, like the NAME OF IT which would convert it into that: example.plugin
+		Description = "example plugin lol"; -- description
+		Version = "0.0.0"; -- version of the plugin
+	};
+```
+
+should be like this:
+
+```lua
+local Plugin = {
+	SolModData = {
+		Script = script;
+		
+		Name = "example";
+		Description = "example plugin lol";
+		Version = "0.0.0";
+	};
+	
+	Name = "Example Plugin",
+	Type = "client", --// 'client' will run the plugin on the client-side and 'server' will run the plugin on the server-side
+}
+
+function Plugin.start()
+	print("Hello! I'm a plugin :)")
+end
+
+return Plugin
+```
+
+Then make sure to name it MainModule and upload it to roblox ENABLE **Distrubute on Marketplace** ![image](https://user-images.githubusercontent.com/96776358/159768383-4b93172b-2db8-4199-8a24-317b52f8589b.png)
 
 ## Gui
 
-When changing the gui to your liking, you need to know *LuaU* and *Gui*
+When changing the gui to your liking, you need to know *LuaU* and *Gui* 
 
 The template gui is in Assets.SolMod.UI
 
