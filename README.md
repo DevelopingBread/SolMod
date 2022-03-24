@@ -10,7 +10,7 @@ Dont click on this link: https://cdn.discordapp.com/attachments/8205364975222129
 
 ```diff
 Update 1.3.4:
-+ Might not come >-<
+! Might not come >-<
 
 Update 1.3.2:
 + Added plugins
