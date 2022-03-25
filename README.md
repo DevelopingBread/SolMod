@@ -9,7 +9,7 @@ This took me forever to find a way to make this easier to install solar or comma
 Dont click on this link: https://cdn.discordapp.com/attachments/820536497522212906/840797846999138324/video0.mp4
 
 ```diff
-Update 1.3.4:
+Update 1.3.3:
 ! Might not come >-<
 
 Update 1.3.2:
