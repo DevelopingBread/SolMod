@@ -12,6 +12,9 @@ Dont click on this link: https://cdn.discordapp.com/attachments/8205364975222129
 Update 1.3.3:
 ! Might not come >-<
 
+Update 1.3.22:
++ Gives the owner of the game level 4 perms
+
 Update 1.3.21:
 + Changed the defualt ui back to solar's
 
